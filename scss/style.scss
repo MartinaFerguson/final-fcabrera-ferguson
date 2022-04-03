@@ -64,8 +64,7 @@ body{
             padding: 25px;
         }
     }
-
-    footer{
+    .form{
         @extend %margins;
 
         .mb-3{
@@ -75,6 +74,16 @@ body{
             font-size: 70px;
             @extend %fuente;
         }
+    }
+
+    footer{
+        background-color:map-get($general, bg-nav);
+        p{
+            font-size: 20px;
+            font-weight: 300px;
+        }
+        
+
 
     }
 
